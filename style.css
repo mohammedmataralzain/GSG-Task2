@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202124;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 150px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+ ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+header a {
+    text-decoration: none;
+    color: whitesmoke; 
+    position: relative;
+    bottom: 2px;  
+}
+
+.person-img {
+border-radius: 50%;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;   
+}
+main img {
+    width: 220px;
+}
+
+main section  {
+    text-align: center;
+}
+
+main section form input {
+    padding: 15px 10px;
+    width: 600px;
+    border-radius:  100px;
+    outline: none;
+    background-color: #202124;
+    border: 1px solid whitesmoke;
+    margin: 20px
+
+}  
+
+  .Search {
+    position: relative;
+}
+
+.icon  {
+  width: 100%;
+    position: absolute;
+    top: 35px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.fa-microphone  {
+
+    position: absolute;
+    right: 65px;
+}
+.fa-camera  {
+    position: absolute;
+    right: 30px;
+}
+.fa-magnifying-glass {
+    position: absolute;
+    left: 30px;
+}
+.divform-2 button {
+background-color: #303134;
+border: 1px solid #303134;
+border-radius: 5px;
+color: #e8eaed;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+height: 36px;
+min-width: 54px;
+cursor: pointer;
+}
+
+section div p {
+color: #e8eaed;
+margin-top: 20px;
+}
+
+section div p span {
+color: #8ab4f8;
+}
+footer {
+background-color: #0f0f10;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+footer div {
+padding: 10px 10px;
+border-bottom: 1px solid #3c4043;
+font-size: 13px;
+color: #9aa0a6;
+
+}
+footer .row2 {
+display: flex;
+justify-content: space-between;
+}
+footer .row2  ul {
+display: flex;
+margin-left: 10px;
+padding: 10px 0;
+}
+/* media quere */
+@media (min-width: 0em) and (max-width: 90em) {
+    main section form input {
+    width: 300px;
+} 
+
+footer .row2{
+    flex-wrap: wrap;
+}
+  }
+
+
